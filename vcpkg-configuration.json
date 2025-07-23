@@ -1,0 +1,13 @@
+{
+  "registries": [
+    {
+      "kind": "git",
+      "repository": "https://github.com/sporacid/spore-vcpkg",
+      "baseline": "a75fbbaf2a41a246d10dfe3ac8771157fd613ad5",
+      "packages": [
+        "spore-codegen",
+        "spore-meta"
+      ]
+    }
+  ]
+}
