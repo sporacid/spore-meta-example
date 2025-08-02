@@ -7,7 +7,7 @@ find_package(spore-codegen CONFIG REQUIRED)
 
 list(APPEND CMAKE_MODULE_PATH ${SPORE_META_SCRIPTS} ${SPORE_CODEGEN_SCRIPTS})
 
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 20)
 
 add_executable(${PROJECT_NAME} src/main.cpp)
 
@@ -17,4 +17,4 @@ target_link_libraries(${PROJECT_NAME} spore::spore-meta)
 
 include(SporeMeta)
 
-spore_add_meta(spore-meta-example)
+spore_add_meta(${PROJECT_NAME})
